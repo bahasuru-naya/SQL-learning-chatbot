@@ -34,13 +34,13 @@ entities:
 
 responses:
   utter_greet:
-    - text: "Hey! welcome ?"
+    - text: "Hey! welcome to SQL Learning Assistant. How can I assist you today?"
 
   utter_goodbye:
     - text: "Bye"
 
   utter_iamabot:
-    - text: "I am a chatbot, which design for maintain database."
+    - text: "I am a chatbot, which design for helping you learn SQL. You can ask me questions about SQL, and I will do my best to provide you with accurate and helpful answers."
 
   utter_please_rephrase:
     - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
