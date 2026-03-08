@@ -1,5 +1,7 @@
 # SQL Learning Assistant Chatbot
 
+<img width="1608" height="862" alt="image" src="https://github.com/user-attachments/assets/c6ab4cdd-75ae-4fa8-9334-570a156dd995" />
+
 ## Overview
 **SQL Learning Assistant Chatbot** is an AI-powered chatbot designed to help students and developers learn SQL through interactive, natural language conversations. Built with the **Rasa framework**, it translates user intents into real-time database operations, allowing users to practice CRUD (Create, Read, Update, Delete) actions and data analysis without needing to write complex SQL syntax manually.
 
@@ -39,7 +41,7 @@ The assistant provides a modern, user-friendly interface with integrated voice S
 ## Setup & Installation
 
 ### 1. Prerequisites
-- Python 3.7 
+- Python 3.7.6 
 - MySQL Server
 
 ### 2. Database Configuration
@@ -113,7 +115,4 @@ This project includes a comprehensive NLU dataset (located in `data/`) designed 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-## Acknowledgments
-Special thanks to the open-source community for the Rasa framework and SQLAlchemy.
