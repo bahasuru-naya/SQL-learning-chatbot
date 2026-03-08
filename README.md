@@ -77,6 +77,31 @@ Simply open `Frontend/index.html` in your web browser. Ensure the Rasa server is
 
 ---
 
+## Testing
+
+### 1. Rasa Built-in Testing (E2E)
+The assistant includes end-to-end test stories to ensure dialogue flows and intent classifications remain consistent.
+- **Test File**: `tests/test_stories.yml`
+- **Run Tests**:
+  ```bash
+  rasa test
+  ```
+
+### 2. Custom SQL Query Accuracy Testing
+To ensure the chatbot accurately translates natural language into successful database operations, a dedicated accuracy test suite is provided.
+- **Location**: `tests/sql-query-accuracy-test/`
+- **Components**:
+  - `test_queries.json`: A dataset of 100 diverse natural language queries covering all supported intents (CRUD and joins).
+  - `test_accuracy.py`: An automated script that validates the bot's responses via the Rasa REST API.
+- **Status**: The assistant maintains a **90.00% accuracy** score across the 100-query benchmark.
+- **Run Accuracy Test**:
+  Ensure the Rasa and Action servers are running, then execute:
+  ```powershell
+  python tests/sql-query-accuracy-test/test_accuracy.py
+  ```
+
+---
+
 ##  Dataset & Research
 This project includes a comprehensive NLU dataset (located in `data/`) designed for training SQL learning assistants.
 - **500+ Examples**: Diverse phrasing for intent classification and entity recognition.

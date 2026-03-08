@@ -1,0 +1,404 @@
+{
+    "queries": [
+        {
+            "text": "show all tables",
+            "intent": "show_all_tables"
+        },
+        {
+            "text": "list all tables",
+            "intent": "show_all_tables"
+        },
+        {
+            "text": "display all tables in database",
+            "intent": "show_all_tables"
+        },
+        {
+            "text": "enumerate all tables",
+            "intent": "show_all_tables"
+        },
+        {
+            "text": "what tables are available?",
+            "intent": "show_all_tables"
+        },
+        {
+            "text": "show stock",
+            "intent": "show_table"
+        },
+        {
+            "text": "show table price",
+            "intent": "show_table"
+        },
+        {
+            "text": "view sales table",
+            "intent": "show_table"
+        },
+        {
+            "text": "show me details of stock table",
+            "intent": "show_table"
+        },
+        {
+            "text": "list everything in price",
+            "intent": "show_table"
+        },
+        {
+            "text": "display all records from sales table",
+            "intent": "show_table"
+        },
+        {
+            "text": "open price table",
+            "intent": "show_table"
+        },
+        {
+            "text": "fetch all data from stock",
+            "intent": "show_table"
+        },
+        {
+            "text": "retrieve data from sales",
+            "intent": "show_table"
+        },
+        {
+            "text": "can you show price?",
+            "intent": "show_table"
+        },
+        {
+            "text": "add Dell XPS 13 and 200 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "insert HP Pavilion Gaming Laptop and 50 within stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "add Apple MacBook Air M1 and 100 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "add Lenovo ThinkPad T14s and 45 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "add Intel i7 and 5 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "insert Samsung 970 EVO Plus SSD 1TB and 12 into stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "add Logitech MX Master 3 Mouse and 30 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "stock Intel i5 with 15",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "add Acer Aspire 5 and 25 to stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "log TP-Link Archer AX50 Wi-Fi 6 Router with 60 into stock",
+            "intent": "add_items_stock"
+        },
+        {
+            "text": "update mouse and 50 where item id 1 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "modify keyboard to 25 where item id 2 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "set monitor stock to 80 where id 3 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "update printer with new quantity 4 where id 29 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "adjust inventory: change laptop quantity to 20 where id 28 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "revise headphones stock count to 100 where id 30 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "change monitor where item id 3",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "modify webcam to have 2 in stock, item id 27 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "update available stock of camera to 10 where id 21 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "set speaker quantity to 5 where id 32 in stock",
+            "intent": "update_items_stock"
+        },
+        {
+            "text": "remove 12 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "delete item id 1 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "remove item ID 22 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "delete monitor and 40 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "remove keyboard and 12 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "erase mouse and 10 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "clear stock: remove ID 1 from stock",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "delete inventory record: ID 2 from stock",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "purge ID 3 from stock",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "remove 15 from stock table",
+            "intent": "delete_items_stock"
+        },
+        {
+            "text": "insert 1 and 1500.00",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 2 and 450.00 to price table",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "insert 3 and 1200.00 to price table",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 20 and 899.49 to price",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 21 and 529.50 to price",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 27 and 180.49 to price",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 28 and 2400.00 to price",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "add 30 and 349.00 to price",
+            "intent": "add_items_price"
+        },
+        {
+            "text": "update 1500.00 where 1 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "modify price to 1000 for item with id 2 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "change the price to 560.50 for id 3 in price table",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "set 499.99 where item id is 20 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "revise price to 950.25 for id 21 in price table",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "update cost details to 1899.99 for id 27 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "adjust price of id 28 to 1049.95 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "correct entry: change 130.75 where 30 in price",
+            "intent": "update_items_price"
+        },
+        {
+            "text": "remove 1 from price table",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "delete item id 2 from price table",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "remove item ID 3 from price table",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "delete 20 and 899.49 from price",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "erase record of 21 and 529.50 from price",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "clear price record: ID 27 from price",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "remove ID 28 from price",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "discard price: ID 30 from price",
+            "intent": "delete_items_price"
+        },
+        {
+            "text": "add 1 and 10 and 2025-10-3",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "insert 2 and 53 and 2025-01-03 to sales",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "record sale: 3 and 25 on 2023-06-11",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "log sales: 1, 33, 2025-10-30",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "add 2 and 12 on 2022-11-02 to sales table",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "insert 20 and 90 and 2024-05-05 to sales",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "store sales: 21, 70, 2025-02-12",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "add 27 and 18 and 2023-09-07 to sales",
+            "intent": "add_items_sales"
+        },
+        {
+            "text": "update 1 and 9 and 2022-10-3 where 1 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "update 2023-12-03 where 2 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "modify 2 and 25 and 2023-05-20 where 3 in sales table",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "set 10 and 2024-02-01 where id 4 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "revise sales: set 3 and 22 and 2023-09-30 where 5 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "adjust sales record: 1 and 30 and 2022-06-06 where 7 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "change sales: 2 and 33 and 2021-09-05 where 8 in sales",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "correct 3 and 70 and 2025-02-20 where 9 in sales table",
+            "intent": "update_items_sales"
+        },
+        {
+            "text": "remove 1 from sales table",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "delete sale id 2 from sales table",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "remove sale ID 3 from sales table",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "delete 1 and 10 and 2025-10-3 from sales",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "erase sale id 4 from sales",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "purge sale record 5 from sales",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "clear sale: ID 7 from sales",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "remove sale ID 8 from sales",
+            "intent": "delete_items_sales"
+        },
+        {
+            "text": "show details about items where sales >32",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about items where price <25000",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about items where sales =45",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about sales of each items",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about price of each items",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about items where sales >50",
+            "intent": "retrieve_specific_data_from_tables"
+        },
+        {
+            "text": "show details about items where price <1000",
+            "intent": "retrieve_specific_data_from_tables"
+        }
+    ]
+}

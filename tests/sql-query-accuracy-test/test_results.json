@@ -1,0 +1,505 @@
+{
+  "accuracy": 90.0,
+  "details": [
+    {
+      "query": "show all tables",
+      "response": "Table: price \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~Table: sales \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~Table: stock \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "list all tables",
+      "response": "Table: price \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~Table: sales \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~Table: stock \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "display all tables in database",
+      "response": "Table: price \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~Table: sales \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~Table: stock \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "enumerate all tables",
+      "response": "Table: price \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~Table: sales \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~Table: stock \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "what tables are available?",
+      "response": "Table: price \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~Table: sales \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~Table: stock \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show stock",
+      "response": "Sql query: \n SELECT * FROM stock  \n \n Result: \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show table price",
+      "response": "Sql query: \n SELECT * FROM price  \n \n Result: \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "view sales table",
+      "response": "Sql query: \n SELECT * FROM sales  \n \n Result: \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show me details of stock table",
+      "response": "Sql query: \n SELECT * FROM stock  \n \n Result: \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "list everything in price",
+      "response": "Sql query: \n SELECT * FROM price  \n \n Result: \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "display all records from sales table",
+      "response": "Sql query: \n SELECT * FROM sales  \n \n Result: \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "open price table",
+      "response": "Sql query: \n SELECT * FROM price  \n \n Result: \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "fetch all data from stock",
+      "response": "Sql query: \n SELECT * FROM stock  \n \n Result: \n ~|id|item_name    |stock|\n|1 |mouse        |10   |\n|2 |keyboard     |12   |\n|3 |monitor      |40   |\n|20|gaming laptop|15   |\n|21|camera       |10   |\n|27|webcam       |10   |\n|28|laptop       |5    |\n|29|printer      |12   |\n|30|headphones   |30   |\n|31|graphic card |15   |\n|32|speaker      |25   |\n|33|USB hub      |60   |\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "retrieve data from sales",
+      "response": "Sql query: \n SELECT * FROM sales  \n \n Result: \n ~|SaleID|id|QuantitySold|SaleDate  |\n|1     |1 |23          |2023-10-02|\n|2     |3 |36          |2023-11-23|\n|3     |1 |2           |2024-01-12|\n|4     |3 |20          |2024-06-23|\n|5     |1 |10          |2024-07-12|\n|7     |1 |10          |2025-10-03|\n|8     |2 |53          |2025-01-03|\n|9     |1 |25          |2023-12-03|\n|15    |1 |10          |2025-10-03|\n|17    |1 |25          |2023-06-11|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "can you show price?",
+      "response": "Sql query: \n SELECT * FROM price  \n \n Result: \n ~|id|price  |\n|2 |15600.0|\n|3 |40000.0|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "add Dell XPS 13 and 200 to stock",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('Dell XPS 13', 200) \n \n Result: \n  Successfully added 200 Dell XPS 13(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "insert HP Pavilion Gaming Laptop and 50 within stock",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('HP Pavilion Gaming Laptop', 50) \n \n Result: \n  Successfully added 50 HP Pavilion Gaming Laptop(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add Apple MacBook Air M1 and 100 to stock",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('Apple MacBook Air M1', 100) \n \n Result: \n  Successfully added 100 Apple MacBook Air M1(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add Lenovo ThinkPad T14s and 45 to stock",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('Lenovo ThinkPad T14s', 45) \n \n Result: \n  Successfully added 45 Lenovo ThinkPad T14s(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add Intel i7 and 5 to stock",
+      "response": "Sql query: \n INSERT INTO stock (item_name, stock) VALUES ('Intel i7', 5) \n \n Result: \n  Successfully added 5 Intel i7(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "insert Samsung 970 EVO Plus SSD 1TB and 12 into stock",
+      "response": "Sql query: \n INSERT INTO stock (item_name, stock) VALUES ('Samsung 970 EVO Plus SSD 1TB', 970) \n \n Result: \n  Successfully added 970 Samsung 970 EVO Plus SSD 1TB(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add Logitech MX Master 3 Mouse and 30 to stock",
+      "response": "An error occurred while inserting data: (mysql.connector.errors.ProgrammingError) 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Mouse)' at line 1\n[SQL: INSERT INTO stock (item_name, stock) VALUES ('Logitech MX Master 3 Mouse', 3 Mouse)]\n(Background on this error at: https://sqlalche.me/e/14/f405)",
+      "status": "FAIL"
+    },
+    {
+      "query": "stock Intel i5 with 15",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('Intel i5', 15) \n \n Result: \n  Successfully added 15 Intel i5(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add Acer Aspire 5 and 25 to stock",
+      "response": "Sql query:\n INSERT INTO stock (item_name, stock) VALUES ('Acer Aspire 5', 25) \n \n Result: \n  Successfully added 25 Acer Aspire 5(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "log TP-Link Archer AX50 Wi-Fi 6 Router with 60 into stock",
+      "response": "Sql query: \n INSERT INTO stock (item_name, stock) VALUES ('TP-Link Archer AX50 Wi-Fi 6 Router', 6) \n \n Result: \n  Successfully added 6 TP-Link Archer AX50 Wi-Fi 6 Router(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update mouse and 50 where item id 1 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'mouse', stock = 50  WHERE id = 1 \n \n Result: \n  Successfully updated 50 mouse(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "modify keyboard to 25 where item id 2 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'keyboard', stock = 25  WHERE id = 2 \n \n Result: \n  Successfully updated 25 keyboard(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "set monitor stock to 80 where id 3 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'monitor', stock = 80  WHERE id = 3 \n \n Result: \n  Successfully updated 80 monitor(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update printer with new quantity 4 where id 29 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'printer', stock = 4  WHERE id = 29 \n \n Result: \n  Successfully updated 4 printer(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "adjust inventory: change laptop quantity to 20 where id 28 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'laptop', stock = 20  WHERE id = 28 \n \n Result: \n  Successfully updated 20 laptop(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "revise headphones stock count to 100 where id 30 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'headphones', stock = 100  WHERE id = 30 \n \n Result: \n  Successfully updated 100 headphones(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "change monitor where item id 3",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'monitor' WHERE id = 3 \n \n Result: \n  Successfully updated monitor(s) to itemstock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "modify webcam to have 2 in stock, item id 27 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'webcam', stock = 2  WHERE id = 27 \n \n Result: \n  Successfully updated 2 webcam(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update available stock of camera to 10 where id 21 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'camera', stock = 10  WHERE id = 21 \n \n Result: \n  Successfully updated 10 camera(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "set speaker quantity to 5 where id 32 in stock",
+      "response": "Sql query:\n UPDATE stock SET item_name = 'speaker', stock = 5  WHERE id = 32 \n \n Result: \n  Successfully updated 5 speaker(s) to stock. \n \n Type 'show stock' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove 12 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "delete item id 1 from stock table",
+      "response": "An error occurred while deleting the row: (mysql.connector.errors.IntegrityError) 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`csitem`.`sales`, CONSTRAINT `sales_ibfk_1` FOREIGN KEY (`id`) REFERENCES `stock` (`id`))\n[SQL: DELETE FROM stock WHERE id = '1' ]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "remove item ID 22 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "delete monitor and 40 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "remove keyboard and 12 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "erase mouse and 10 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "clear stock: remove ID 1 from stock",
+      "response": "An error occurred while deleting the row: (mysql.connector.errors.IntegrityError) 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`csitem`.`sales`, CONSTRAINT `sales_ibfk_1` FOREIGN KEY (`id`) REFERENCES `stock` (`id`))\n[SQL: DELETE FROM stock WHERE id = '1' ]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "delete inventory record: ID 2 from stock",
+      "response": "An error occurred while deleting the row: (mysql.connector.errors.IntegrityError) 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`csitem`.`price`, CONSTRAINT `fk1` FOREIGN KEY (`id`) REFERENCES `stock` (`id`))\n[SQL: DELETE FROM stock WHERE id = '2' ]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "purge ID 3 from stock",
+      "response": "An error occurred while deleting the row: (mysql.connector.errors.IntegrityError) 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`csitem`.`price`, CONSTRAINT `fk1` FOREIGN KEY (`id`) REFERENCES `stock` (`id`))\n[SQL: DELETE FROM stock WHERE id = '3' ]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "remove 15 from stock table",
+      "response": "No rows found matching the criteria in stock.",
+      "status": "FAIL"
+    },
+    {
+      "query": "insert 1 and 1500.00",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('1', 1500.00) \n \n Result: \n  Successfully added 1 1500.00 to itemprice. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 2 and 450.00 to price table",
+      "response": "An error occurred while inserting data: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry '2' for key 'price.PRIMARY'\n[SQL: INSERT INTO price (id, price) VALUES ('2', 450.00)]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "insert 3 and 1200.00 to price table",
+      "response": "An error occurred while inserting data: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry '3' for key 'price.PRIMARY'\n[SQL: INSERT INTO price (id, price) VALUES ('3', 1200.00)]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)",
+      "status": "PASS"
+    },
+    {
+      "query": "add 20 and 899.49 to price",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('20', 899.49) \n \n Result: \n  Successfully added 20 899.49 to price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 21 and 529.50 to price",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('21', 529.50) \n \n Result: \n  Successfully added 21 529.50 to price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 27 and 180.49 to price",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('27', 180.49) \n \n Result: \n  Successfully added 27 180.49 to price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 28 and 2400.00 to price",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('28', 2400.00) \n \n Result: \n  Successfully added 28 2400.00 to price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 30 and 349.00 to price",
+      "response": "Sql query:\n INSERT INTO price (id, price) VALUES ('30', 349.00) \n \n Result: \n  Successfully added 30 349.00 to price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update 1500.00 where 1 in price",
+      "response": "Sql query:\n UPDATE price SET price = 1500.00 WHERE id = 1 \n \n Result: \n  Successfully updated price=1500.00 where id=1 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "modify price to 1000 for item with id 2 in price",
+      "response": "Missing required information. Please provide id, price, and table name.",
+      "status": "FAIL"
+    },
+    {
+      "query": "change the price to 560.50 for id 3 in price table",
+      "response": "Sql query:\n UPDATE price SET price = 560.50 WHERE id = 3 \n \n Result: \n  Successfully updated price=560.50 where id=3 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "set 499.99 where item id is 20 in price",
+      "response": "Sql query:\n UPDATE price SET price = 499.99 WHERE id = 20 \n \n Result: \n  Successfully updated price=499.99 where id=20 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "revise price to 950.25 for id 21 in price table",
+      "response": "Sql query:\n UPDATE price SET price = 950.25 WHERE id = 21 \n \n Result: \n  Successfully updated price=950.25 where id=21 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update cost details to 1899.99 for id 27 in price",
+      "response": "Sql query:\n UPDATE price SET price = 1899.99 WHERE id = 27 \n \n Result: \n  Successfully updated price=1899.99 where id=27 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "adjust price of id 28 to 1049.95 in price",
+      "response": "Sql query:\n UPDATE price SET price = 1049.95 WHERE id = 28 \n \n Result: \n  Successfully updated price=1049.95 where id=28 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "correct entry: change 130.75 where 30 in price",
+      "response": "Sql query:\n UPDATE price SET price = 130.75 WHERE id = 30 \n \n Result: \n  Successfully updated price=130.75 where id=30 in price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove 1 from price table",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '1'  \n \n Result: \n  Successfully deleted 1  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "delete item id 2 from price table",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '2'  \n \n Result: \n  Successfully deleted 2  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove item ID 3 from price table",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '3'  \n \n Result: \n  Successfully deleted 3  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "delete 20 and 899.49 from price",
+      "response": "No rows found matching the criteria in price.",
+      "status": "FAIL"
+    },
+    {
+      "query": "erase record of 21 and 529.50 from price",
+      "response": "No rows found matching the criteria in price.",
+      "status": "FAIL"
+    },
+    {
+      "query": "clear price record: ID 27 from price",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '27'  \n \n Result: \n  Successfully deleted 27  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove ID 28 from price",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '28'  \n \n Result: \n  Successfully deleted 28  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "discard price: ID 30 from price",
+      "response": "Sql query:\n DELETE FROM price WHERE id = '30'  \n \n Result: \n  Successfully deleted 30  from price. \n \n Type 'show price' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 1 and 10 and 2025-10-3",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('1', 10,'2025-10-3') \n \n Result: \n  Successfully added 1 10 2025-10-3 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "insert 2 and 53 and 2025-01-03 to sales",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('2', 53,'2025-01-03') \n \n Result: \n  Successfully added 2 53 2025-01-03 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "record sale: 3 and 25 on 2023-06-11",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('3', 25,'2023-06-11') \n \n Result: \n  Successfully added 3 25 2023-06-11 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "log sales: 1, 33, 2025-10-30",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('1', 33,'2025-10-30') \n \n Result: \n  Successfully added 1 33 2025-10-30 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 2 and 12 on 2022-11-02 to sales table",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('2', 12,'2022-11-02') \n \n Result: \n  Successfully added 2 12 2022-11-02 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "insert 20 and 90 and 2024-05-05 to sales",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('20', 90,'2024-05-05') \n \n Result: \n  Successfully added 20 90 2024-05-05 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "store sales: 21, 70, 2025-02-12",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('21', 70,'2025-02-12') \n \n Result: \n  Successfully added 21 70 2025-02-12 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "add 27 and 18 and 2023-09-07 to sales",
+      "response": "Sql query:\n INSERT INTO sales (id, QuantitySold,SaleDate) VALUES ('27', 18,'2023-09-07') \n \n Result: \n  Successfully added 27 18 2023-09-07 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update 1 and 9 and 2022-10-3 where 1 in sales",
+      "response": "Sql query:\n UPDATE sales SET id = 1, QuantitySold = 9, SaleDate = '2022-10-3' WHERE SaleID = 1 \n \n Result: \n  Successfully updated 1 9 2022-10-3 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "update 2023-12-03 where 2 in sales",
+      "response": "Sql query:\n UPDATE sales SET  SaleDate = '2023-12-03' WHERE SaleID = 2 \n \n Result: \n  Successfully updated  2023-12-03 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "modify 2 and 25 and 2023-05-20 where 3 in sales table",
+      "response": "Sql query:\n UPDATE sales SET id = 2, QuantitySold = 25, SaleDate = '2023-05-20' WHERE SaleID = 3 \n \n Result: \n  Successfully updated 2 25 2023-05-20 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "set 10 and 2024-02-01 where id 4 in sales",
+      "response": "Sql query:\n UPDATE sales SET  QuantitySold = 10, SaleDate = '2024-02-01' WHERE SaleID = 4 \n \n Result: \n  Successfully updated  10 2024-02-01 to itemsales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "revise sales: set 3 and 22 and 2023-09-30 where 5 in sales",
+      "response": "Sql query:\n UPDATE sales SET id = 3, QuantitySold = 22, SaleDate = '2023-09-30' WHERE SaleID = 5 \n \n Result: \n  Successfully updated 3 22 2023-09-30 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "adjust sales record: 1 and 30 and 2022-06-06 where 7 in sales",
+      "response": "Sql query:\n UPDATE sales SET id = 1, QuantitySold = 30, SaleDate = '2022-06-06' WHERE SaleID = 7 \n \n Result: \n  Successfully updated 1 30 2022-06-06 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "change sales: 2 and 33 and 2021-09-05 where 8 in sales",
+      "response": "Sql query:\n UPDATE sales SET id = 2, QuantitySold = 33, SaleDate = '2021-09-05' WHERE SaleID = 8 \n \n Result: \n  Successfully updated 2 33 2021-09-05 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "correct 3 and 70 and 2025-02-20 where 9 in sales table",
+      "response": "Sql query:\n UPDATE sales SET id = 3, QuantitySold = 70, SaleDate = '2025-02-20' WHERE SaleID = 9 \n \n Result: \n  Successfully updated 3 70 2025-02-20 to sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove 1 from sales table",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '1'  \n \n Result: \n  Successfully deleted 1  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "delete sale id 2 from sales table",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '2'  \n \n Result: \n  Successfully deleted 2  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove sale ID 3 from sales table",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '3'  \n \n Result: \n  Successfully deleted 3  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "delete 1 and 10 and 2025-10-3 from sales",
+      "response": "Sql query:\n DELETE FROM sales WHERE id = '1' AND  QuantitySold = '10' AND SaleDate ='2025-10-3' \n \n Result: \n  Successfully deleted 1 10 2025-10-3 from sales.\n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "erase sale id 4 from sales",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '4'  \n \n Result: \n  Successfully deleted 4  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "purge sale record 5 from sales",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '5'  \n \n Result: \n  Successfully deleted 5  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "clear sale: ID 7 from sales",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '7'  \n \n Result: \n  Successfully deleted 7  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "remove sale ID 8 from sales",
+      "response": "Sql query:\n DELETE FROM sales WHERE SaleID = '8'  \n \n Result: \n  Successfully deleted 8  from sales. \n \n Type 'show sales' to see the changes.",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about items where sales >32",
+      "response": "Sql query:\n SELECT * FROM stock INNER JOIN sales ON stock.id = sales.id WHERE sales.QuantitySold >32 \n \n Result: \n ~|id|item_name    |stock|SaleID|id|QuantitySold|SaleDate  |\n|3 |monitor      |80   |9     |3 |70          |2025-02-20|\n|2 |keyboard     |25   |24    |2 |53          |2025-01-03|\n|1 |mouse        |50   |26    |1 |33          |2025-10-30|\n|20|gaming laptop|15   |28    |20|90          |2024-05-05|\n|21|camera       |10   |29    |21|70          |2025-02-12|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about items where price <25000",
+      "response": "Sql query:\n SELECT * FROM stock INNER JOIN price ON stock.id = price.id WHERE price.price <25000 \n \n Result: \n ~|id|item_name    |stock|id|price |\n|20|gaming laptop|15   |20|499.99|\n|21|camera       |10   |21|950.25|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about items where sales =45",
+      "response": "No results found.",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about sales of each items",
+      "response": "Sql query:\n SELECT stock.item_name, sales.QuantitySold,sales.SaleDate  FROM stock INNER JOIN sales ON stock.id = sales.id \n \n Result: \n ~|item_name    |QuantitySold|SaleDate  |\n|monitor      |70          |2025-02-20|\n|mouse        |25          |2023-06-11|\n|keyboard     |53          |2025-01-03|\n|monitor      |25          |2023-06-11|\n|mouse        |33          |2025-10-30|\n|keyboard     |12          |2022-11-02|\n|gaming laptop|90          |2024-05-05|\n|camera       |70          |2025-02-12|\n|webcam       |18          |2023-09-07|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about price of each items",
+      "response": "Sql query:\n SELECT stock.item_name, price.price FROM stock INNER JOIN price ON stock.id = price.id \n \n Result: \n ~|item_name    |price |\n|gaming laptop|499.99|\n|camera       |950.25|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about items where sales >50",
+      "response": "Sql query:\n SELECT * FROM stock INNER JOIN sales ON stock.id = sales.id WHERE sales.QuantitySold >50 \n \n Result: \n ~|id|item_name    |stock|SaleID|id|QuantitySold|SaleDate  |\n|3 |monitor      |80   |9     |3 |70          |2025-02-20|\n|2 |keyboard     |25   |24    |2 |53          |2025-01-03|\n|20|gaming laptop|15   |28    |20|90          |2024-05-05|\n|21|camera       |10   |29    |21|70          |2025-02-12|\n ~",
+      "status": "PASS"
+    },
+    {
+      "query": "show details about items where price <1000",
+      "response": "Sql query:\n SELECT * FROM stock INNER JOIN price ON stock.id = price.id WHERE price.price <1000 \n \n Result: \n ~|id|item_name    |stock|id|price |\n|20|gaming laptop|15   |20|499.99|\n|21|camera       |10   |21|950.25|\n ~",
+      "status": "PASS"
+    }
+  ]
+}
