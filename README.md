@@ -39,7 +39,7 @@ The assistant provides a modern, user-friendly interface with integrated voice S
 ## Setup & Installation
 
 ### 1. Prerequisites
-- Python 3.7 
+- Python 3.7.6 
 - MySQL Server
 
 ### 2. Database Configuration
